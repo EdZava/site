@@ -1,11 +1,11 @@
 /* TEAM */
-Name        : Javi Jiménez
-Site        : http://soyjavi.com
-Twitter     : @soyjavi
-Location    : Bilbao, Spain.
+Name        : Carlos Azaustre
+Site        : http://carlosazaustre.es
+Twitter     : @carlosazaustre
+Location    : Madrid, Spain.
 
 /* SITE */
-Last update : 2014/12/22
+Last update : 2015/01/08
 Standards   : HTML5, CSS3 & JavaScrip.
 Components  : ZEN, Flexo, jQuery.
-Software    : Sublime Text 3, CoffeeScript, Stylus & passion.
+Software    : Atom, CoffeeScript, Stylus & passion.
