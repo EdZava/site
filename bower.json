@@ -1,6 +1,6 @@
 {
-  "name": "kikobeats.com",
-  "version": "1.1.5",
+  "name": "carlosazaustre.es",
+  "version": "1.0.0",
   "componentsDirectory": "dependencies/bower",
   "dependencies": {
     "flexo": "*",
