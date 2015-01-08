@@ -1,10 +1,10 @@
-window.kikobeats = kikobeats = version: "1.1.5"
+window.carlosazaustre = carlosazaustre = version: "1.0.0"
 
 $ ->
 
-  do kikobeats.effect.resize
-  $(window).on "resize", kikobeats.effect.resize
-  $(document).on "scroll", kikobeats.effect.scroll
+  do carlosazaustre.effect.resize
+  $(window).on "resize", carlosazaustre.effect.resize
+  $(document).on "scroll", carlosazaustre.effect.scroll
 
   # Thirds
 
@@ -26,4 +26,4 @@ $ ->
       $(this).find("figcaption").toggleClass "hover"
       $(this).find("h1").toggleClass "hover"
 
-  console.info "Why so serious? :~)"
+  console.info "Ola k ase :P"

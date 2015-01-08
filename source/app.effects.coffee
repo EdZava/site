@@ -1,4 +1,4 @@
-kikobeats.effect = do (s = kikobeats) ->
+carlosazaustre.effect = do (s = carlosazaustre) ->
 
   _el =
     page    : $ window
