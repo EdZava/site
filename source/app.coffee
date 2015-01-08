@@ -8,7 +8,7 @@ $ ->
 
   # Thirds
 
-  new WOW().init()
+  # new WOW().init()
 
   if parrot.device.type is 'desktop'
     $.firefly
