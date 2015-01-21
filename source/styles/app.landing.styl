@@ -188,7 +188,8 @@ body
         opacity: 0.5
 
     &.landing
-      background: linear-gradient(150deg, rgba(224, 117, 24, 0.2) 30%, rgba(227, 108, 40, 0.3) 70%), url("/assets/img/cover.jpg")
+      //background: linear-gradient(150deg, rgba(224, 117, 24, 0.2) 30%, rgba(227, 108, 40, 0.3) 70%), url("/assets/img/cover.jpg")
+      background                : url("/assets/img/cover.jpg")
       background-size           : cover !important
       background-opacity        : 0.3
       background-position       : 0 100%
@@ -214,13 +215,17 @@ body
         > img
           border-radius         : 50%
           max-width             : UNIT * 4
-          border                : 2px solid THEME
+          border                : 3px solid #F8F8F8
           margin-bottom         : SPACE * 1.8
         > h1
           color                 : #F8F8F8
+          border                : 3px solid #F8F8F8
+          padding               : .2em .5em
           font-size             : 3.9rem
           font-weight           : FONT_WEIGHT_BOLD
           text-shadow           : 0 2px 2px rgba(000,000,000,.4)
+          text-transform        : uppercase
+
           > span
             opacity: 0.5
         > p
@@ -235,10 +240,10 @@ body
             width                 : SIZE = (UNIT / 1.5)
             height                : SIZE
             font-size             : SIZE
-            opacity               : 0.4
+            opacity               : 1
             transition              opacity ANIMATION_DURATION ANIMATION_EASE
             &:hover
-              opacity             : 1
+              opacity             : 0.5
         > .more
           position              : absolute
           bottom                : SPACE
