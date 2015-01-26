@@ -1,3 +1,7 @@
 # robots.txt for http://carlosazaustre.es/
 
 User-agent: *
+Disallow: /ghost/
+Disallow: /tienda/
+Disallow: /osomsoft/
+Disallow: /blog/tag/
