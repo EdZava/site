@@ -2,6 +2,8 @@
 
 User-agent: *
 Disallow: /ghost/
+Disallow: /wp-admin/
 Disallow: /tienda/
 Disallow: /osomsoft/
 Disallow: /blog/tag/
+Disallow: /blog/author/carlos/
