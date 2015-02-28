@@ -1,9 +1,0 @@
-gravatar:
-    email: cazaustre@gmail.com            # email for get your avatar url.
-    avatar_size: 500                      # size of the avatar.
-osrc:
-  username: carlosazaustre                # coming soon!
-blog:
-  url: http://carlosazaustre.es/blog/rss/ # Your blog feed.
-  max_posts: 4                            # Number of posts to fetch.
-  image_selector: '#feature-image'        # CSS Selector to get a image for each post.

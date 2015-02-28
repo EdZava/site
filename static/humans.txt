@@ -7,5 +7,5 @@ Location    : Madrid, Spain.
 /* SITE */
 Last update : 2015/01/08
 Standards   : HTML5, CSS3 & JavaScript.
-Components  : ZEN, Flexo, jQuery, Ghost.
-Software    : Atom, CoffeeScript, Stylus & passion.
+Components  : Node.js, Express, Flexbox, Browserify, Ghost.
+Software    : Atom, Stylus & passion.
