@@ -1,5 +1,7 @@
 "use strict";
 
+// -- Dependencies -------------------------------------------------------------
+
 var gulp = require("gulp");
 var gutil = require("gulp-util");
 var stylus = require("gulp-stylus");
@@ -8,6 +10,8 @@ var concat = require("gulp-concat");
 var autoprefixer = require("gulp-autoprefixer");
 var header = require("gulp-header");
 var pkg = require("./package.json");
+
+// -- Files --------------------------------------------------------------------
 
 var assets = "static/";
 var source = {
@@ -21,6 +25,8 @@ var banner = [
   " */" +
   ""
 ].join("\n");
+
+// -- Tasks --------------------------------------------------------------------
 
 gulp.task("styl", function() {
   gulp.src(source.styl)
