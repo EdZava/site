@@ -15,7 +15,10 @@ var pkg = require("./package.json");
 
 var assets = "static/";
 var source = {
-  styl: [ "source/styles/app.*.styl" ]
+  styl: [
+    "source/styles/normalize.styl",
+    "source/styles/app.*.styl"
+  ]
 }
 
 var banner = [
