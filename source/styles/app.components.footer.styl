@@ -1,4 +1,5 @@
 .footer
+  font-size .9em
   position absolute
   bottom 0
   left 0
@@ -7,6 +8,10 @@
   width 100%
   a
     color app_white
+    transition color .5s ease-out
+    &:hover
+      color app_orange
+      text-decoration underline
   address
     font-style normal
 
@@ -37,6 +42,8 @@
   flex-direction row
   li
     padding .2em 0
+    a
+      margin-left .3em
 
 .footer__contactList
   padding 0 1em
