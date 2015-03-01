@@ -92,6 +92,8 @@
     &:after
       content ""
 
+
+
 // -- Mobile Button ------------------------------------------------------------
 
 .navbar__mobileMenu
@@ -102,4 +104,13 @@
   .navbar__mobileMenu
     display flex
     &:after
-      content "="
+      border-top 10px solid transparent
+      border-left 10px solid transparent
+      border-right 10px solid transparent
+      content ""
+      border-top-color app_black
+      top 50px
+      right .9em
+      margin-left -10px
+      position absolute
+      z-index 11
