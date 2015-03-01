@@ -1,0 +1,104 @@
+// --Navbar --------------------------------------------------------------------
+
+.navbar
+  background-color app_black
+  color app_white
+  font-weight bold
+  height 50px
+  a
+    color app_white
+
+.navbar__content
+  margin 0 auto
+  width 1024px
+  display flex
+  justify-content center
+  align-content center
+  align-items center
+  flex-direction row
+
+@media screen and (max-width: 1000px)
+  .navbar__content
+    width auto
+    margin 0 1em
+
+// -- Logo ---------------------------------------------------------------------
+
+.navbar__logo
+  order 1
+  flex 1 1 auto
+  img
+    vertical-align middle
+    margin-right .5em
+  a
+    padding .5em
+
+@media screen and (max-width: 1000px)
+  .navbar__logo
+    line-height 45px
+
+// -- Navbar Links -------------------------------------------------------------
+
+.navbar__list
+  list-style-type none
+  align-self center
+  order 3
+  flex 1 1 auto
+  max-width 45%
+  min-height auto
+
+@media screen and (max-width: 1000px)
+  .navbar__list
+    background-color app_black + 20
+    position absolute
+    top 50px
+    right 0
+    display flex
+    flex-direction column
+    z-index 10
+    width 0
+    transition width .5s ease-out
+    overflow hidden
+  .navbar__list--show
+    width 50%
+
+.navbar__list__item
+  display inline-block
+  vertical-align middle
+  line-height 50px
+
+  a
+    padding .75em .5em
+    &:hover
+      border-top 4px solid app_orange
+
+  &:after
+    content " | "
+    font-weight normal
+  &:last-child:after
+    content ""
+
+@media screen and (max-width: 1000px)
+  .navbar__list__item
+    text-align center
+
+    a:hover
+      border none
+
+    &:hover
+      background-color app_black + 10
+
+    &:after
+      content ""
+
+// -- Mobile Button ------------------------------------------------------------
+
+.navbar__mobileMenu
+  display none
+  order 2
+
+@media screen and (max-width: 1000px)
+  .navbar__mobileMenu
+    display flex
+    &:after
+      content "="
