@@ -33,9 +33,18 @@
       (function() {
         var $mobileBtn = $(".navbar__mobileMenu");
         var $mobileMenu = $(".navbar__list");
+        var $imgLogoFront = $(".header__figure--front");
+        var $imgLogoBack = $(".header__figure--back");
 
         $mobileMenu.on("click", function(e) {
           $mobileMenu.toggleClass("navbar__list--show");
+        });
+
+        $imgLogoFront.on("mouseover", function(e) {
+          $imgLogoBack.toggleClass("header__figure--back--show");
+        });
+        $imgLogoFront.on("mouseout", function(e) {
+          $imgLogoBack.toggleClass("header__figure--back--show");
         });
 
       })();
