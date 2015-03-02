@@ -1,0 +1,47 @@
+.header
+  background url('/static/img/cover.jpg') no-repeat
+  background-size cover
+  background-position 0 75%
+  min-height 320px
+
+.header__content
+  width 1024px
+  margin 0 auto
+  padding 1.5em
+  color app_white
+  text-align center
+
+  h1, h2
+    text-transform uppercase
+    text-shadow 1px 1px 3px app_black
+  h1
+    border 3px solid app_white
+    border-bottom 0
+    display inline-block
+    padding .25em .5em
+    margin .5em 0 0 0
+  h2
+    font-size .8em
+    letter-spacing .65em
+    position relative
+    top -18px
+    left 0
+
+    &:after, &:before
+      font-size 2em
+      content "\2014\2014\2014"
+      letter-spacing -5px
+    &:before
+      position relative
+      top 0
+      left -11px
+    &:after
+      position relative
+      top 0
+      left 6px
+
+.header__figure
+  img
+    width 120px
+    border-radius 50%
+    border 3px solid app_white
