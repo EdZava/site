@@ -36,8 +36,9 @@
         var $imgLogoFront = $(".header__figure--front");
         var $imgLogoBack = $(".header__figure--back");
 
-        $mobileMenu.on("click", function(e) {
+        $mobileBtn.on("click", function(e) {
           $mobileMenu.toggleClass("navbar__list--show");
+          $mobileMenu.toggleClass("navbar__mobileMenu--arrow");
         });
 
         $imgLogoFront.on("mouseover", function(e) {
