@@ -35,7 +35,11 @@ body
 
 .section__content
   margin 0 auto
-  width 1024px
+  width 100%
+
+  @media screen and (max-width 1024px)
+    .section__content
+      width 1024px
 
 // -- Youtube section video ----------------------------------------------------
 
@@ -59,3 +63,16 @@ body
   left 0
   right 0
   bottom 0
+
+.youtube__content
+  background rgba(232, 202, 167, 0.6)
+  padding .5em 2em
+  border-radius 3em
+  color app_white
+  font-size 1.2em
+  position inherit
+  bottom 4em
+  margin 0 auto
+  width 80%
+  a
+    color app_white
