@@ -1,26 +1,19 @@
-// -- Functions ----------------------------------------------------------------
-
-zeroSpace()
-  margin 0
-  padding 0
-
-containerSize()
-  margin 0 auto
-  width 1024px
-
 // -- Reset --------------------------------------------------------------------
 a
   text-decoration none
 
 h1,h2,h3,h4,h5,h6,ul,ol,li,p,nav,header,section,article,main,footer,aside,figure
-  zeroSpace()
+  margin 0
+  padding 0
 
 // -- Main Elements ------------------------------------------------------------
 
 body
-  zeroSpace()
+  margin 0 auto
+  padding 0
   font-family 'Lato'
   font-size 16px
+  //width 100%
 
 .text-small
   font-size .8em
@@ -35,11 +28,11 @@ body
 
 .section__content
   margin 0 auto
-  width 100%
+  //width 100%
 
-  @media screen and (max-width 1024px)
-    .section__content
-      width 1024px
+@media screen and (min-width: 1024px)
+  .section__content
+    width 1024px
 
 // -- Youtube section video ----------------------------------------------------
 
@@ -54,7 +47,6 @@ body
   left 0
   bottom 0
   right 0
-  width 100%
 
 .youtube__curtain
   background linear-gradient(to right,rgba(126, 70, 15, 0.5) 0,rgba(240, 191, 143, 0.5) 100%)
@@ -76,3 +68,10 @@ body
   width 80%
   a
     color app_white
+
+@media screen and (min-width: 1024px)
+  .youtube__content
+    font-size 1.6em
+    padding .5em
+    bottom 8em
+    width 50%
